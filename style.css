@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    #a{
+        position: relative;
+        top:80vh;
+        z-index: 1;
+        left: 40vh;
+    }
+    #c img{
+        position: relative;
+        left: 170vh;
+        padding: 4vh;
+        width: 10vh;
+        top: -35vh;
+    }
+    #c{
+        cursor:pointer;
+    }
+    .t img{
+        width: 12vh;
+        position: relative;
+        left: 6vh;
+        top:-12vh;
+    }
+    #t1{
+        padding-right: 11vh;
+    }
+    #video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+       /* overflow: hidden;*/
+      }
+      
+      #background{
+        position: absolute;
+        background-repeat: repeat;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        
+      }
